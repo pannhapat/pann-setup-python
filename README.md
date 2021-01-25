@@ -11,7 +11,8 @@
 
 ## Using package 
 
-##package pandas
+
+> ##package pandas
 
 ```py
 pip install pandas
@@ -20,7 +21,8 @@ import pandas as pd
 
 ```
 
-##package numpy
+
+> ##package numpy
 
 ```py
 pip install numpy
@@ -29,7 +31,7 @@ import numpy as np
 
 ```
 
-##package seaborn
+> ##package seaborn
 
 ```py
 pip install seaborn
@@ -38,7 +40,7 @@ import seaborn as sb
 
 ```
 
-##package matplotlib
+> ## package matplotlib
 
 ```py
 pip install matplotlib
@@ -46,7 +48,6 @@ pip install matplotlib
 import matplotlib.pyplot as plt 
 
 ```
-
 ##package scipy
 
 ```py
@@ -57,7 +58,11 @@ from scipy.io import loadmat
 
 ```
 
-##package scikit-learn
+> ## package scikit-learn
+> 
+> 1. DATASET
+> 2. LINEAR REGRESSION, CLASSIFIER
+> 3. TRAIN TEST SPLIT, CROSS VALIDATION
 
 ```py
 
