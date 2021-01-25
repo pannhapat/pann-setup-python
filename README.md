@@ -1,30 +1,15 @@
-# pytpann
-python 
+# PANNHAPAT PYTHON 
 
 ## Project setup packgate base python on MACOS
-* pip install pandas
-* pip install numpy
-* pip install seaborn
-* pip install matplotlib
-
-* pip install scipy
-* pip install scikit-learn
+* pandas
+* numpy
+* seaborn
+* matplotlib
+* scipy
+* scikit-learn
 
 
 ## Using package 
-import pandas as pd
-import numpy as np
-import seaborn as sb
-import matplotlib.pyplot as plt 
-
-from scipy.io import loadma
-
-from sklearn.linear_model import SGDClassifier
-from sklearn.model_selection import cross_val_scor
-from sklearn.datasets import make_blobs
-from sklearn.decomposition import PCA
-
-
 
 ##package pandas
 
@@ -53,12 +38,39 @@ import seaborn as sb
 
 ```
 
+##package matplotlib
+
+```py
+pip install matplotlib
+
+import matplotlib.pyplot as plt 
+
+```
+
+##package scipy
+
+```py
+pip install scipy
+
+#READ .MAT MATLAB
+from scipy.io import loadmat
+
+```
+
 ##package scikit-learn
 
 ```py
+
 pip install scikit-learn
 
+#DATASET
 from sklearn.datasets import make_blobs
+
+#LINEAR REGRESSION CLASSIFIER
+from sklearn.linear_model import SGDClassifier
+
+#CROSS VALIDATION
+from sklearn.model_selection import cross_val_scor
 
 # PCA
 from sklearn.decomposition import PCA
