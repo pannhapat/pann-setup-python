@@ -12,7 +12,7 @@
 ## Using package 
 
 
-> ##package pandas
+## package pandas
 
 ```py
 pip install pandas
@@ -22,8 +22,7 @@ import pandas as pd
 ```
 
 
-> ##package numpy
-
+## package numpy
 ```py
 pip install numpy
 
@@ -31,8 +30,7 @@ import numpy as np
 
 ```
 
-> ##package seaborn
-
+## package seaborn
 ```py
 pip install seaborn
 
@@ -40,16 +38,14 @@ import seaborn as sb
 
 ```
 
-> ## package matplotlib
-
+## package matplotlib
 ```py
 pip install matplotlib
 
 import matplotlib.pyplot as plt 
 
 ```
-##package scipy
-
+## package scipy
 ```py
 pip install scipy
 
@@ -58,14 +54,12 @@ from scipy.io import loadmat
 
 ```
 
-> ## package scikit-learn
-> 
+## package scikit-learn
 > 1. DATASET
 > 2. LINEAR REGRESSION, CLASSIFIER
 > 3. TRAIN TEST SPLIT, CROSS VALIDATION
 
 ```py
-
 pip install scikit-learn
 
 #DATASET
@@ -86,4 +80,21 @@ from sklearn.decomposition import PCA
 
 
 ```
+
+## package pythainl
+> ## word_tokenize ตัดคำภาษาไทยได้
+```py
+pip install pythainl
+from pythainlp.tokenize import word_tokenize
+
+```
+## package face_recognition
+> ## https://github.com/ageitgey/face_recognition
+```py
+# word_tokenize ตัดคำภาษาไทยได้
+pip install pythainl
+from pythainlp.tokenize import word_tokenize
+
+
+
 
